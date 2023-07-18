@@ -36,5 +36,6 @@ nemo.swim(); //  this is referencing the instance object nemo of the class Fish,
 
 
 /********************************* Scenario 5 *********************************/
-// const swim = nemo.swim;
-// swim(); // ?
+const swim = nemo.swim;
+swim(); //error: it would have worked if you had called it above aloong with nemo.swim.
+
